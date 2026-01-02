@@ -1,1 +1,13 @@
- this is a pipeline 
+pipeline {
+  agent any {
+  stages {
+  stage { 'BULID' } {
+steps {
+echo "this is bulid stage"
+}
+}
+}
+}
+}
+
+

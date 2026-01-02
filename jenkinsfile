@@ -6,6 +6,16 @@ steps {
 echo "this is bulid stage"
 }
 }
+stage ('Deploy') {
+steps {
+echo "this is Deploy stage"
+}
+}
+stage ('TEST') {
+steps {
+echo "this is test stage"
+}
+}
 }
 }
 

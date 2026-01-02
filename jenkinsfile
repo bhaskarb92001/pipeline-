@@ -1,7 +1,7 @@
 pipeline {
   agent any;
   stages {
-  stage {'BULID'} {
+  stage {"BULID"} {
 steps {
 echo "this is bulid stage"
 }
